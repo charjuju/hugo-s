@@ -49,7 +49,7 @@ function NavBar() {
 
   return (
     <div className="nev-bar">
-      <h1 onClick={() => navigate('/')} style={{ font: 'Monospace' }}>Hugo Segato</h1>
+        <img alt='logo' src='/logo.png' style={{height: '100px', cursor: 'pointer'}} onClick={() => navigate('/')} />
       <ButtonNavigation />
       <div style={{width: '10vw', maxWidth: '150px'}}/>
     </div>
