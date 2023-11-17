@@ -32,6 +32,11 @@ function MainPage() {
           </div>
         </div>
       </div>
+      <footer>
+        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+          © HUGO SEGATO - all Rights reserved
+        </div>
+      </footer>
     </div>
   );
 }
