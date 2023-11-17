@@ -2,6 +2,15 @@ import React from "react";
 
 function Info() {
 
+  function diviserEnPhrases(chaine, delimiteur) {
+    // Utiliser la méthode split pour diviser la chaîne en phrases
+    const phrases = chaine.split(delimiteur);
+
+    // Supprimer les espaces vides au début et à la fin de chaque phrase
+    const phrasesPropres = phrases.map(phrase => phrase.trim());
+
+    return phrasesPropres;
+  }
   /*
     function AboutMe() {
       function CarrePhoto() {
@@ -30,24 +39,28 @@ function Info() {
 
   function AboutMe() {
 
-    function Lasagne1({titre, description, imgsrc}) {
+    function Lasagne1({ titre, description, imgsrc }) {
       return (
-        <div style={{width:'100%', display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-          <div style={{width: '45%', minWidth: '250px'}}>
-            <h1 style={{marginLeft: '20px'}}>{titre}</h1>
-            <p style={{marginLeft: '15%'}}>{description}</p>
+        <div style={{ width: '100%', display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <div style={{ width: '45%', minWidth: '250px' }}>
+            <h1 style={{ marginLeft: '20px' }}>{titre}</h1>
+            {description.map((descriptionP, index) => (
+              <p style={{ marginLeft: '3vw' }}>{descriptionP}</p>
+            ))}
           </div>
           <img style={{ width: '45%', minWidth: '250px' }} src={imgsrc} alt="about me" />
         </div>
       )
     }
 
-    function Lasagne2({titre, description, imgsrc}) {
+    function Lasagne2({ titre, description, imgsrc }) {
       return (
-        <div style={{width:'100%', display: 'flex', flexDirection: 'row-reverse', flexWrap: 'wrap', justifyContent: 'center'}}>
-          <div style={{width: '45%', minWidth: '250px'}}>
-            <h1 style={{marginLeft: '20px'}}>{titre}</h1>
-            <p style={{marginLeft: '15%'}}>{description}</p>
+        <div style={{ width: '100%', display: 'flex', flexDirection: 'row-reverse', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <div style={{ width: '45%', minWidth: '250px' }}>
+            <h1 style={{ marginLeft: '20px' }}>{titre}</h1>
+            {description.map((descriptionP, index) => (
+              <p style={{ marginLeft: '3vw' }}>{descriptionP}</p>
+            ))}
           </div>
           <img style={{ width: '45%', minWidth: '250px' }} src={imgsrc} alt="about me" />
         </div>
@@ -55,15 +68,23 @@ function Info() {
     }
 
     return (
-      <div style={{width: '60%'}}>
-        <Lasagne1 imgsrc="/aboutMe/1.jpeg" description="Photographer based in Toulouse, available worldwide." titre="about me" />
-        <Lasagne2 imgsrc="/aboutMe/1.jpeg" description="Photographer based in Toulouse, available worldwide." titre="about me" />
+      <div style={{ width: '60%' }}>
+        <Lasagne1 imgsrc="/aboutMe/1.jpeg" description={diviserEnPhrases("salut moi c'est hugo*je suis un super photografe et si tu veux manger des saussice et boire des bonne bierre c'est toujour un plaisir", '*')} titre="about me" />
+        <Lasagne2 imgsrc="/aboutMe/1.jpeg" description={diviserEnPhrases("- photogra officiel du zizi de jude*- grand chompion de carting 2022 - 2023", '*')} titre="Resumé de mes activité fo pas deconer" />
       </div>
     )
   }
+
+  function Publication() {
+    return (
+      <div></div>
+    )
+  }
+
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '60px'}}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '60px' }}>
       <AboutMe />
+      <Publication />
     </div>
   );
 }
