@@ -1,8 +1,9 @@
 import React from 'react';
 import jsonData from './gestionDesImages.json'
-
+import { useNavigate } from "react-router-dom";
 
 function Book() {
+  const navigate = useNavigate();
   const bookPick = localStorage.getItem('Book') ? localStorage.getItem('Book') : '0'
   const bookInfo = jsonData[bookPick].book
 
@@ -10,11 +11,15 @@ function Book() {
   function GalerieImage() {
     return (
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center' }}>
-        {jsonData.map((data, index) => (
-          <div key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div onClick={() => localStorage.setItem('Book', index)} style={{
+        {bookInfo.map((data, index) => (
+          <div onClick={() => {
+            localStorage.setItem('Chapter', index)
+            console.log(index)
+            navigate('/Chapter')
+          }} key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}>
+            <div style={{
               display: 'flex', backgroundImage: `url("${data.imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
-              width: '400px', height: '250px', margin: '10px', overflow: 'hidden', cursor: 'pointer'
+              width: '400px', height: '250px', margin: '10px', overflow: 'hidden'
             }}>
             </div>
             <h2 style={{ marginTop: '0px' }}>{data.titre}</h2>

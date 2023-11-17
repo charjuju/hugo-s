@@ -1,52 +1,30 @@
 [
-    {
-        "folder": "exemple",
-        "titre": "F1 DE ZINZIN",
-        "imageCover": "/exemple/vroum vroum a pau/broum.jpeg",
-        "book": [
-            {
-                "folder": "vroum vroum a pau",
-                "titre": "Pau f1 zinzin",
-                "imageCover": "exemple/1.jpeg",
-                "chapter": [
-                    "broum.jpeg",
-                    "drift.jpeg"
-                ]
-            },
-            {
-                "folder": "moi",
-                "titre": "photo de ma geul",
-                "imageCover": "exemple/moi/1.jpeg",
-                "chapter": [
-                    "broum.jpeg",
-                    "drift.jpeg"
-                ]
-            }
-        ]
-    },
-    {
-        "folder": "exemple",
-        "titre": "FOOT 2 RUE",
-        "imageCover": "exemple/moi/1.jpeg",
-        "book": [
-            {
-                "folder": "vroum vroum a pau",
-                "titre": "Pau f1 zinzin",
-                "imageCover": "exemple/1.jpeg",
-                "chapter": [
-                    "broum.jpeg",
-                    "drift.jpeg"
-                ]
-            },
-            {
-                "folder": "moi",
-                "titre": "photo de ma geul",
-                "imageCover": "exemple/moi/1.jpeg",
-                "chapter": [
-                    "broum.jpeg",
-                    "drift.jpeg"
-                ]
-            }
-        ]
-    }
+  {
+    "folder": "exemple",
+    "titre": "F1 DE ZINZIN",
+    "imageCover": "/exemple/vroum vroum a pau/broum.jpeg",
+    "book": [
+      {
+        "titre": "Pau f1 zinzin",
+        "imageCover": "/exemple/vroum vroum a pau/drift.jpeg",
+        "chapter": {
+          "path": "/exemple/vroum vroum a pau/",
+          "file": [
+            "broum.jpeg",
+            "drift.jpeg"
+          ]
+        }
+      },
+      {
+        "titre": "photo de ma geul",
+        "imageCover": "/exemple/moi/1.jpeg",
+        "chapter": {
+          "path": "/exemple/moi/",
+          "file": [
+            "1.jpeg"
+          ]
+        }
+      }
+    ]
+  }
 ]

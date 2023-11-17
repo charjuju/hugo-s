@@ -1,12 +1,18 @@
 import React from 'react';
 import jsonData from './gestionDesImages.json'
-
+import {useNavigate} from "react-router-dom";
 
 function Gelleries() {
+  const navigate = useNavigate();
+
+
   function GalerieImage() {
     return (
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        <div onClick={() => localStorage.setItem('Book', 0)} style={{
+        <div onClick={() => {
+          localStorage.setItem('Book', 0)
+          navigate("/Book/")
+        }} style={{
           display: 'flex', backgroundImage: `url("${jsonData[0].imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
           maxWidth: '520px', width: '100%', height: '500px', margin: '10px', cursor: 'pointer'
         }}>
