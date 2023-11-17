@@ -1,30 +1,31 @@
 import React from "react";
+import ImageStar from './imageStar/ImageStar'
 
 function MainPage() {
+  function NavBar() {
+    function ButtonNavigation() {
+      return (
+        <div style={{ display: 'flex', alignItems: 'center' }}>
 
-  const PublicFolderContent = () => {
+          <p><a href="/">Info</a></p>
+          <p><a href="/">Gelleries</a></p>
+        </div>
+      )
+    }
 
-    console.log(process.env.PUBLIC_URL)
-  };
-
-  function ButtonNavigation() {
     return (
-      <div style={{ display: 'flex', alignItems: 'center' }}>
-
-        <p><a href="/">Info</a></p>
-        <p><a href="/">Gelleries</a></p>
+      <div className="nev-bar">
+        <h1 style={{ font: 'Monospace' }}>Hugo Segato</h1>
+        <ButtonNavigation />
       </div>
     )
   }
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', minHeight: '90vh'}}>
+    <div style={{ display: 'flex', justifyContent: 'center', minHeight: '90vh' }}>
       <div className="conteneur-page">
-        <div className="nev-bar">
-          <h1 style={{ font: 'Monospace' }}>Hugo Segato</h1>
-          <ButtonNavigation />
-        </div>
-        <PublicFolderContent />
+        <NavBar />
+        <ImageStar />
       </div>
     </div>
   );
