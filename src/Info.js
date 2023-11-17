@@ -69,8 +69,8 @@ function Info() {
 
     return (
       <div style={{ width: '60%' }}>
-        <Lasagne1 imgsrc="/aboutMe/1.jpeg" description={diviserEnPhrases("salut moi c'est hugo*je suis un super photografe et si tu veux manger des saussice et boire des bonne bierre c'est toujour un plaisir", '*')} titre="about me" />
-        <Lasagne2 imgsrc="/aboutMe/1.jpeg" description={diviserEnPhrases("- photogra officiel du zizi de jude*- grand chompion de carting 2022 - 2023", '*')} titre="Resumé de mes activité fo pas deconer" />
+        <Lasagne1 imgsrc="/aboutMe/1.jpeg" description={diviserEnPhrases("SEGATO Hugo* *Diplômé de l'ITM Graduate School Le Mans", '*')} titre="Qui suis-je ?" />
+        <Lasagne2 imgsrc="/aboutMe/1.jpeg" description={diviserEnPhrases("Journaliste Essayiste Automobile*Photographe professionnel", '*')} titre="Mon domaine" />
       </div>
     )
   }
