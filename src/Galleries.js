@@ -29,9 +29,9 @@ function Galleries() {
               <h1 style={{
                 margin: '0',
                 padding: '0',
-                fontSize: '70px', color: '#ffffff', writingMode: 'vertical-rl', // vertical right-to-left
-                textOrientation: 'upright', // lettres restent à l'horizontale
-                transform: 'rotate(0deg)',
+                fontSize: '70px', color: '#ffffff', // vertical right-to-left
+                writingMode: 'vertical-lr',
+                textOrientation: 'upright',
               }}>{data.titre}</h1>
             </div>
           )))}
@@ -60,13 +60,7 @@ function Galleries() {
               display: 'flex', backgroundImage: `url("${data.imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
               width: '100%', height: '100vw', maxHeight: '50vh', margin: '10px', overflow: 'hidden', cursor: 'pointer'
             }}>
-              <h1 style={{
-                margin: '0',
-                padding: '0',
-                fontSize: '70px', color: '#ffffff', writingMode: 'vertical-rl', // vertical right-to-left
-                textOrientation: 'upright', // lettres restent à l'horizontale
-                transform: 'rotate(0deg)',
-              }}>{data.titre}</h1>
+              <h1 style={{ fontSize: '100px', color: '#ffffff', marginTop: '0' }}>{data.titre}</h1>
             </div>
           )))}
       </div>
