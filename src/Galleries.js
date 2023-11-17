@@ -7,7 +7,7 @@ function Galleries() {
 
   function GalerieImage() {
     return (
-      <div style={{ display: 'flex', flexWrap: 'wrap', width: '100%'}}>
+      <div style={{ display: 'flex', flexWrap: 'wrap'}}>
         <div onClick={() => {
           localStorage.setItem('Book', 0)
           navigate("/Book/")
@@ -71,7 +71,7 @@ function Galleries() {
     <div>
       <div className='pc-display'>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-          <div style={{ width: '70%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div style={{ width: '80%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <GalerieImage />
           </div>
         </div>
