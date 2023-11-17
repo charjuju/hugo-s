@@ -1,5 +1,6 @@
 import MainPage from './MainPage'
 import Info from './Info'
+import Gelleries from './Gelleries'
 import { BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
 import './App.css';
 
@@ -16,7 +17,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route path="/" element={<MainPage />} />
-            <Route path="/Gelleries" element={<p>Gelleries</p>} />
+            <Route path="/Gelleries" element={<Gelleries />} />
             <Route path="/Info" element={<Info />} />
           </Routes>
         </div>
