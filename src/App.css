@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'MaPolice'; /* Nom que vous donnerez à votre police */
+  src: url('./Xara Regular.otf') format('opentype'); /* Remplacez le chemin par le chemin réel de votre fichier de police */
+  /* Autres propriétés de style, comme font-weight, font-style, etc. */
+}
+
 h1, p, h2, h3 {
   color: #182e3b;
-  font-family: "Times New Roman", Times, serif;;
+  font-family: 'MaPolice', sans-serif;
 }
 
 a {
