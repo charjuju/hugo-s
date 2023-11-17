@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<MainPage />} />
             <Route path="/Gelleries" element={<Gelleries />} />
             <Route path="/Book" element={<Gelleries />} />
-            <Route path="/chapter" element={<Gelleries />} />
+            <Route path="/Chapter" element={<Gelleries />} />
             <Route path="/Info" element={<Info />} />
           </Routes>
         </div>
