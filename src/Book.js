@@ -28,10 +28,43 @@ function Book() {
       </div>
     )
   }
+
+  function GalerieImagePhone() {
+    return (
+      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center' }}>
+        {bookInfo.map((data, index) => (
+          <div onClick={() => {
+            localStorage.setItem('Chapter', index)
+            console.log(index)
+            navigate('/Chapter')
+          }} key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}>
+            <div style={{
+              display: 'flex', backgroundImage: `url("${data.imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
+              width: '90vw', height: '50vw', maxHeight: '70vh', margin: '10px', overflow: 'hidden'
+            }}>
+            </div>
+            <h2 style={{ marginTop: '0px' }}>{data.titre}</h2>
+          </div>
+        ))}
+      </div>
+    )
+  }
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
-      <div style={{ width: '80%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <GalerieImage />
+    <div>
+      <div className='pc-display'>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div style={{ width: '80%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <GalerieImage />
+          </div>
+        </div>
+      </div>
+      <div className='phone-display'>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <GalerieImagePhone />
+          </div>
+        </div>
       </div>
     </div>
   );
