@@ -26,3 +26,20 @@ a {
   justify-content: space-between;
   padding-top: 20px;
 }
+
+.pc-display {
+  display: block;
+}
+
+.phone-display {
+  display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+  .pc-display {
+    display: none;
+  }
+  .phone-display {
+    display: block;
+  }
+}
