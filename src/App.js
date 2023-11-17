@@ -1,6 +1,8 @@
 import MainPage from './MainPage'
 import Info from './Info'
 import Gelleries from './Gelleries'
+import Chapter from './Chapter'
+import Book from './Book'
 import { BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
 import './App.css';
 
@@ -18,8 +20,8 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/Gelleries" element={<Gelleries />} />
-            <Route path="/Book" element={<Gelleries />} />
-            <Route path="/Chapter" element={<Gelleries />} />
+            <Route path="/Book" element={<Book />} />
+            <Route path="/Chapter" element={<Chapter />} />
             <Route path="/Info" element={<Info />} />
           </Routes>
         </div>
