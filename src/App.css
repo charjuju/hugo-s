@@ -11,6 +11,11 @@ a {
 
 
 .conteneur-page {
+  width: 90%;
+  max-width: 1000px;
+}
+
+.conteneur-navbar {
   width: 80%;
   max-width: 1300px;
 }

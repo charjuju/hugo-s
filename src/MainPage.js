@@ -5,7 +5,7 @@ function MainPage() {
   function NavBar() {
     function ButtonNavigation() {
       return (
-        <div style={{ display: 'flex', alignItems: 'center'}}>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
           <p><a href="/">Info</a></p>
           <p><a href="/">Gelleries</a></p>
         </div>
@@ -21,11 +21,13 @@ function MainPage() {
   }
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', minHeight: '90vh' }}>
-      <div className="conteneur-page">
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '90vh' }}>
+      <div className="conteneur-navbar">
         <NavBar />
-        <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '40px'}}>
-          <div style={{ width: '80%', overflow: 'hidden'}}>
+      </div>
+      <div className="conteneur-page">
+        <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '40px' }}>
+          <div style={{ width: '100%', overflow: 'hidden' }}>
             <ImageStar />
           </div>
         </div>
