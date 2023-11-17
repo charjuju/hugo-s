@@ -34,7 +34,7 @@ function MainPage() {
       </div>
       <footer>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-          v0.03 © HUGO SEGATO - all Rights reserved
+          v0.04 © HUGO SEGATO - all Rights reserved
         </div>
       </footer>
     </div>
