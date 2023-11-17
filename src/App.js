@@ -51,6 +51,7 @@ function NavBar() {
     <div className="nev-bar">
       <h1 onClick={() => navigate('/')} style={{ font: 'Monospace' }}>Hugo Segato</h1>
       <ButtonNavigation />
+      <div style={{width: '10vw', maxWidth: '150px'}}/>
     </div>
   );
 }
