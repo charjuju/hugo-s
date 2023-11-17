@@ -20,7 +20,10 @@ function Gelleries() {
         </div>
         {jsonData.map((data, index) => (
           index > 0 && (
-            <div onClick={() => localStorage.setItem('Book', index)} key={index} style={{
+            <div onClick={() => {
+              localStorage.setItem('Book', index)
+              navigate("/Book/")
+            }} key={index} style={{
               display: 'flex', backgroundImage: `url("${data.imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
               width: '250px', height: '500px', margin: '10px', overflow: 'hidden', cursor: 'pointer'
             }}>
