@@ -25,7 +25,11 @@ function MainPage() {
     <div style={{ display: 'flex', justifyContent: 'center', minHeight: '90vh' }}>
       <div className="conteneur-page">
         <NavBar />
-        <ImageStar />
+        <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center '}}>
+          <div style={{ width: '80%' }}>
+            <ImageStar />
+          </div>
+        </div>
       </div>
     </div>
   );
