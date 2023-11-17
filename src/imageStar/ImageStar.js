@@ -1,5 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import imageStarJson from './ImageStar.json'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -28,10 +29,10 @@ function ImageStar() {
             navigation={true}
             modules={[Autoplay, Pagination, Navigation]}
           >
-            <SwiperSlide><img style={{ width: '100%' }} src="imageStar/broum.jpeg" alt="imageStar" /></SwiperSlide>
-            <SwiperSlide><img style={{ width: '100%' }} src="imageStar/drift.jpeg" alt="imageStar" /></SwiperSlide>
-            <SwiperSlide><img style={{ width: '100%' }} src="imageStar/broum.jpeg" alt="imageStar" /></SwiperSlide>
-            <SwiperSlide><img style={{ width: '100%' }} src="imageStar/drift.jpeg" alt="imageStar" /></SwiperSlide>
+            {imageStarJson.map((data, index) => (
+              <SwiperSlide><img style={{ width: '100%' }} src={data} alt="imageStar" /></SwiperSlide>
+            ))
+            }
           </Swiper>
         </div>
       </div>
@@ -47,10 +48,10 @@ function ImageStar() {
             }}
             modules={[Autoplay]}
           >
-            <SwiperSlide><img style={{ width: '100%' }} src="imageStar/broum.jpeg" alt="imageStar" /></SwiperSlide>
-            <SwiperSlide><img style={{ width: '100%' }} src="imageStar/drift.jpeg" alt="imageStar" /></SwiperSlide>
-            <SwiperSlide><img style={{ width: '100%' }} src="imageStar/broum.jpeg" alt="imageStar" /></SwiperSlide>
-            <SwiperSlide><img style={{ width: '100%' }} src="imageStar/drift.jpeg" alt="imageStar" /></SwiperSlide>
+            {imageStarJson.map((data, index) => (
+              <SwiperSlide><img style={{ width: '100%' }} src={data} alt="imageStar" /></SwiperSlide>
+            ))
+            }
           </Swiper>
         </div>
       </div>
