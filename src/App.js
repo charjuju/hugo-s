@@ -3,7 +3,7 @@ import Info from './Info'
 import Galleries from './Galleries'
 import Chapter from './Chapter'
 import Book from './Book'
-import { BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -25,6 +25,11 @@ function App() {
             <Route path="/Info" element={<Info />} />
           </Routes>
         </div>
+        <footer>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            v1.01 © HUGO SEGATO - all Rights reserved
+          </div>
+        </footer>
       </div>
     </BrowserRouter>
   );
@@ -36,8 +41,8 @@ function NavBar() {
   function ButtonNavigation() {
     return (
       <div style={{ display: 'flex', alignItems: 'center' }}>
-          <p onClick={() => navigate('/Info')}>Info</p>
-          <p style={{marginLeft: '20px'}} onClick={() => navigate('/Galleries')}>Galleries</p>
+        <p onClick={() => navigate('/Info')}>Info</p>
+        <p style={{ marginLeft: '20px' }} onClick={() => navigate('/Galleries')}>Galleries</p>
       </div>
     );
   }
