@@ -2,7 +2,7 @@ import React from 'react';
 import jsonData from './gestionDesImages.json'
 
 
-function Gelleries() {
+function Book() {
   function GalerieImage() {
     return (
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
@@ -39,4 +39,4 @@ function Gelleries() {
   );
 }
 
-export default Gelleries;
+export default Book;
