@@ -1,20 +1,35 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css'
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 function ImageStar() {
   return (
     <div>
       <Swiper
-        spaceBetween={0}
-        slidesPerView={1}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
       >
-        <SwiperSlide><img style={{width: '99%'}} src="imageStar/broum.jpeg" alt="imageStar"/></SwiperSlide>
-        <SwiperSlide><img style={{width: '99%'}} src="imageStar/drift.jpeg" alt="imageStar"/></SwiperSlide>
-        <SwiperSlide><img style={{width: '99%'}} src="imageStar/broum.jpeg" alt="imageStar"/></SwiperSlide>
-        <SwiperSlide><img style={{width: '99%'}} src="imageStar/drift.jpeg" alt="imageStar"/></SwiperSlide>
+        <SwiperSlide><img style={{width: '100%'}} src="imageStar/broum.jpeg" alt="imageStar"/></SwiperSlide>
+        <SwiperSlide><img style={{width: '100%'}} src="imageStar/drift.jpeg" alt="imageStar"/></SwiperSlide>
+        <SwiperSlide><img style={{width: '100%'}} src="imageStar/broum.jpeg" alt="imageStar"/></SwiperSlide>
+        <SwiperSlide><img style={{width: '100%'}} src="imageStar/drift.jpeg" alt="imageStar"/></SwiperSlide>
       </Swiper>
     </div>
   )
