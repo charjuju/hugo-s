@@ -1,6 +1,6 @@
 import MainPage from './MainPage'
 import Info from './Info'
-import Gelleries from './Gelleries'
+import Galleries from './Galleries'
 import Chapter from './Chapter'
 import Book from './Book'
 import { BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
@@ -19,7 +19,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route path="/" element={<MainPage />} />
-            <Route path="/Gelleries" element={<Gelleries />} />
+            <Route path="/Galleries" element={<Galleries />} />
             <Route path="/Book" element={<Book />} />
             <Route path="/Chapter" element={<Chapter />} />
             <Route path="/Info" element={<Info />} />
@@ -37,7 +37,7 @@ function NavBar() {
     return (
       <div style={{ display: 'flex', alignItems: 'center' }}>
           <p onClick={() => navigate('/Info')}>Info</p>
-          <p style={{marginLeft: '20px'}} onClick={() => navigate('/Gelleries')}>Gelleries</p>
+          <p style={{marginLeft: '20px'}} onClick={() => navigate('/Galleries')}>Galleries</p>
       </div>
     );
   }

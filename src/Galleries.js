@@ -2,7 +2,7 @@ import React from 'react';
 import jsonData from './gestionDesImages.json'
 import { useNavigate } from "react-router-dom";
 
-function Gelleries() {
+function Galleries() {
   const navigate = useNavigate();
 
   function GalerieImage() {
@@ -93,4 +93,4 @@ function Gelleries() {
   );
 }
 
-export default Gelleries;
+export default Galleries;
