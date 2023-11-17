@@ -7,7 +7,7 @@ function MainPage() {
       return (
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <p><a href="/">Info</a></p>
-          <p><a href="/">Gelleries</a></p>
+          <p><a href="/Gelleries">Gelleries</a></p>
         </div>
       )
     }
