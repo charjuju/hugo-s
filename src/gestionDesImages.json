@@ -1,11 +1,11 @@
 [
   {
     "titre": "Football",
-    "imageCover": "/Dossier/SportAuto/drift.jpeg",
+    "imageCover": "/Dossier/Football/CSGFLeguevin/CSGFLeguevin-022.jpg",
     "book": [
       {
         "titre": "CSGF Leguevin",
-        "imageCover": "/Dossier/SportAuto/1.jpeg",
+        "imageCover": "/Dossier/Football/CSGFLeguevin/CSGFLeguevin-092.jpg",
         "chapter": {
           "path": "/Dossier/Football/CSGFLeguevin/",
           "file": [
@@ -17,22 +17,20 @@
   },
   {
     "titre": "Sport Auto",
-    "imageCover": "/Dossier/SportAuto/drift.jpeg",
+    "imageCover": "/Dossier/SportAuto/Best of Pau-11.jpg",
     "book": [
       {
-        "titre": "sexe",
+        "titre": "Pau 2023",
         "imageCover": "/Dossier/SportAuto/1.jpeg",
         "chapter": {
-          "path": "/exemple/vroum vroum a pau/",
+          "path": "/Dossier/SportAuto/Pau 2023",
           "file": [
-            "broum.jpeg",
-            "drift.jpeg",
-            "1.jpeg"
+            "Best of Pau-12.jpg", "Best of Pau-14.jpg", "Best of Pau-16.jpg", "Best of Pau-2.jpg", "Best of Pau-8.jpg", "Best of Pau-17.jpg", "Best of Pau-4.jpg", "Best of Pau-5.jpg", "Best of Pau-13.jpg", "Best of Pau-18.jpg", "Best of Pau-6.jpg", "Best of Pau-3.jpg", "Best of Pau-10.jpg", "Best of Pau-7.jpg", "Best of Pau-19.jpg", "noms_de_fichiers.csv", "Best of Pau-15.jpg", "Best of Pau-11.jpg", "Best of Pau-9.jpg", "Best of Pau-1.jpg"
           ]
         }
       },
       {
-        "titre": "hzerrheh",
+        "titre": "test 2",
         "imageCover": "/exemple/moi/1.jpeg",
         "chapter": {
           "path": "/exemple/moi/",
