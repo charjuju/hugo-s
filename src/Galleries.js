@@ -29,10 +29,10 @@ function Galleries() {
               <h1 style={{
                 margin: '0',
                 padding: '0',
-                fontSize: '70px', color: '#ffffff', // vertical right-to-left
+                fontSize: '30px', color: '#ffffff', // vertical right-to-left
                 writingMode: 'vertical-lr',
                 textOrientation: 'upright',
-              }}>{data.titre}</h1>
+              }}><b>{data.titre}</b></h1>
             </div>
           )))}
       </div>
