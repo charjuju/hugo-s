@@ -2,6 +2,7 @@ import React from "react";
 
 function Info() {
 
+  /*
   function diviserEnPhrases(chaine, delimiteur) {
     // Utiliser la méthode split pour diviser la chaîne en phrases
     const phrases = chaine.split(delimiteur);
@@ -11,14 +12,12 @@ function Info() {
 
     return phrasesPropres;
   }
-  /*
+  */
+  
     function AboutMe() {
       function CarrePhoto() {
         return (
           <div style={{ display: 'flex', flexWrap: 'wrap', width: '50%', minWidth: '250px', justifyContent: 'space-around', gap: '20px'}}>
-          <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1.jpeg" alt="about me" />
-          <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1.jpeg" alt="about me" />
-          <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1.jpeg" alt="about me" />
           <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1.jpeg" alt="about me" />
         </div>
         )
@@ -27,16 +26,19 @@ function Info() {
       return (
           <div style={{ display: 'flex', width: '70%', flexWrap: 'wrap', marginTop: '150px', justifyContent: 'center'}}>
             <div style={{width: '50%', minWidth: '250px', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-              <h2>About me</h2>
-              <p>Photographer in toup du cul du monde, available worldwide.</p>
-              <p>Contact:   +33 7 77 76 15 94  –  hugosegato@gmail.com</p>
+              <h1>About me</h1>
+              <h2>SEGATO Hugo</h2>
+              <p>Diplômé de l'ITM Graduate School Le Mans</p>
+              <p>Journaliste Essayiste Automobile</p>
+                <p>Photographe professionnel</p>
             </div>
             <CarrePhoto />
+            <p>Contact:   +33 7 77 76 15 94  –  hugosegato@gmail.com</p>
           </div>
       )
     }
-    */
-
+    
+    /*
   function AboutMe() {
 
     function Lasagne1({ titre, description, imgsrc }) {
@@ -74,7 +76,7 @@ function Info() {
       </div>
     )
   }
-
+*/
   function Publication() {
     return (
       <div></div>

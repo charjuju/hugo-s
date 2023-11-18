@@ -7,13 +7,13 @@ function Galleries() {
 
   function GalerieImage() {
     return (
-      <div style={{ display: 'flex', flexWrap: 'wrap'}}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', width: '100%'}}>
         <div onClick={() => {
           localStorage.setItem('Book', 0)
           navigate("/Book/")
         }} style={{
           display: 'flex', backgroundImage: `url("${jsonData[0].imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
-          maxWidth: '520px', width: '100%', height: '500px', margin: '10px', cursor: 'pointer'
+          maxWidth: '520px', width: '100%', height: '500px', margin: '10px', cursor: 'pointer', overflow: 'hidden'
         }}>
           <h1 style={{ fontSize: '100px', color: '#ffffff', marginTop: '0' }}>{jsonData[0].titre}</h1>
         </div>
@@ -71,7 +71,7 @@ function Galleries() {
     <div>
       <div className='pc-display'>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-          <div style={{ width: '80%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div style={{ width: '70%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
             <GalerieImage />
           </div>
         </div>
