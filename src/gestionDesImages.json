@@ -1,35 +1,113 @@
 [
   {
     "titre": "Football",
-    "imageCover": "/Dossier/Football/CSGFLeguevin/CSGFLeguevin-022.jpg",
+    "imageCover": "/Dossier/Football/CSGFLeguevin/CSGFLeguevin-001.jpg",
     "book": [
       {
-        "titre": "CSGF Leguevin",
-        "imageCover": "/Dossier/Football/CSGFLeguevin/CSGFLeguevin-092.jpg",
+        "titre": "CSGFLeguevin",
+        "imageCover": "/Dossier/Football/CSGFLeguevin/CSGFLeguevin-001.jpg",
         "chapter": {
-          "path": "/Dossier/Football/CSGFLeguevin/",
+          "path": "Dossier/Football/CSGFLeguevin/",
           "file": [
-            "CSGFLeguevin-080.jpg", "CSGFLeguevin-004.jpg", "CSGFLeguevin-045.jpg", "CSGFLeguevin-014.jpg", "CSGFLeguevin-029.jpg", "CSGFLeguevin-023.jpg", "CSGFLeguevin-049.jpg", "CSGFLeguevin-076.jpg", "CSGFLeguevin-025.jpg", "CSGFLeguevin-022.jpg", "CSGFLeguevin-088.jpg", "CSGFLeguevin-035.jpg", "CSGFLeguevin-070.jpg", "CSGFLeguevin-067.jpg", "CSGFLeguevin-003.jpg", "CSGFLeguevin-001.jpg", "CSGFLeguevin-060.jpg", "CSGFLeguevin-028.jpg", "CSGFLeguevin-031.jpg", "CSGFLeguevin-053.jpg", "CSGFLeguevin-036.jpg", "CSGFLeguevin-054.jpg", "CSGFLeguevin-057.jpg", "CSGFLeguevin-032.jpg", "CSGFLeguevin-085.jpg", "CSGFLeguevin-021.jpg", "CSGFLeguevin-033.jpg", "CSGFLeguevin-043.jpg", "CSGFLeguevin-081.jpg", "CSGFLeguevin-020.jpg", "CSGFLeguevin-083.jpg", "CSGFLeguevin-034.jpg", "CSGFLeguevin-051.jpg", "CSGFLeguevin-048.jpg", "CSGFLeguevin-055.jpg", "CSGFLeguevin-075.jpg", "CSGFLeguevin-018.jpg", "CSGFLeguevin-066.jpg", "CSGFLeguevin-016.jpg", "CSGFLeguevin-024.jpg", "CSGFLeguevin-010.jpg", "CSGFLeguevin-050.jpg", "CSGFLeguevin-096.jpg", "CSGFLeguevin-094.jpg", "CSGFLeguevin-093.jpg", "CSGFLeguevin-090.jpg", "CSGFLeguevin-074.jpg", "CSGFLeguevin-082.jpg", "CSGFLeguevin-015.jpg", "CSGFLeguevin-073.jpg", "CSGFLeguevin-087.jpg", "CSGFLeguevin-002.jpg", "CSGFLeguevin-026.jpg", "CSGFLeguevin-079.jpg", "CSGFLeguevin-091.jpg", "CSGFLeguevin-095.jpg", "CSGFLeguevin-052.jpg", "CSGFLeguevin-040.jpg", "CSGFLeguevin-092.jpg", "CSGFLeguevin-089.jpg", "CSGFLeguevin-059.jpg", "CSGFLeguevin-030.jpg"
+            "CSGFLeguevin-001.jpg",
+            "CSGFLeguevin-002.jpg",
+            "CSGFLeguevin-003.jpg",
+            "CSGFLeguevin-004.jpg",
+            "CSGFLeguevin-010.jpg",
+            "CSGFLeguevin-014.jpg",
+            "CSGFLeguevin-015.jpg",
+            "CSGFLeguevin-016.jpg",
+            "CSGFLeguevin-018.jpg",
+            "CSGFLeguevin-020.jpg",
+            "CSGFLeguevin-021.jpg",
+            "CSGFLeguevin-022.jpg",
+            "CSGFLeguevin-023.jpg",
+            "CSGFLeguevin-024.jpg",
+            "CSGFLeguevin-025.jpg",
+            "CSGFLeguevin-026.jpg",
+            "CSGFLeguevin-028.jpg",
+            "CSGFLeguevin-029.jpg",
+            "CSGFLeguevin-030.jpg",
+            "CSGFLeguevin-031.jpg",
+            "CSGFLeguevin-032.jpg",
+            "CSGFLeguevin-033.jpg",
+            "CSGFLeguevin-034.jpg",
+            "CSGFLeguevin-035.jpg",
+            "CSGFLeguevin-036.jpg",
+            "CSGFLeguevin-040.jpg",
+            "CSGFLeguevin-043.jpg",
+            "CSGFLeguevin-045.jpg",
+            "CSGFLeguevin-048.jpg",
+            "CSGFLeguevin-049.jpg",
+            "CSGFLeguevin-050.jpg",
+            "CSGFLeguevin-051.jpg",
+            "CSGFLeguevin-052.jpg",
+            "CSGFLeguevin-053.jpg",
+            "CSGFLeguevin-054.jpg",
+            "CSGFLeguevin-055.jpg",
+            "CSGFLeguevin-057.jpg",
+            "CSGFLeguevin-059.jpg",
+            "CSGFLeguevin-060.jpg",
+            "CSGFLeguevin-066.jpg",
+            "CSGFLeguevin-067.jpg",
+            "CSGFLeguevin-070.jpg",
+            "CSGFLeguevin-073.jpg",
+            "CSGFLeguevin-074.jpg",
+            "CSGFLeguevin-075.jpg",
+            "CSGFLeguevin-076.jpg",
+            "CSGFLeguevin-079.jpg",
+            "CSGFLeguevin-080.jpg",
+            "CSGFLeguevin-081.jpg",
+            "CSGFLeguevin-082.jpg",
+            "CSGFLeguevin-083.jpg",
+            "CSGFLeguevin-085.jpg",
+            "CSGFLeguevin-087.jpg",
+            "CSGFLeguevin-088.jpg",
+            "CSGFLeguevin-089.jpg",
+            "CSGFLeguevin-090.jpg",
+            "CSGFLeguevin-091.jpg",
+            "CSGFLeguevin-092.jpg",
+            "CSGFLeguevin-093.jpg",
+            "CSGFLeguevin-094.jpg",
+            "CSGFLeguevin-095.jpg",
+            "CSGFLeguevin-096.jpg"
           ]
         }
       }
     ]
   },
   {
-    "titre": "Sport Auto",
-    "imageCover": "/Dossier/SportAuto/Pau_2023/Best of Pau-11.jpg",
+    "titre": "SportAuto",
+    "imageCover": "/Dossier/SportAuto/Pau_2023/Best of Pau-10.jpg",
     "book": [
       {
-        "titre": "Pau 2023",
-        "imageCover": "/Dossier/SportAuto/Pau_2023/Best_of_Pau-1.jpg",
+        "titre": "Pau_2023",
+        "imageCover": "/Dossier/SportAuto/Pau_2023/Best of Pau-10.jpg",
         "chapter": {
-          "path": "/Dossier/SportAuto/Pau_2023/",
+          "path": "Dossier/SportAuto/Pau_2023/",
           "file": [
-            "Best of Pau-12.jpg", "Best of Pau-14.jpg", "Best of Pau-16.jpg", "Best of Pau-2.jpg", "Best of Pau-8.jpg", "Best of Pau-17.jpg", "Best of Pau-4.jpg", "Best of Pau-5.jpg", "Best of Pau-13.jpg", "Best of Pau-18.jpg", "Best of Pau-6.jpg", "Best of Pau-3.jpg", "Best of Pau-10.jpg", "Best of Pau-7.jpg", "Best of Pau-19.jpg", "Best of Pau-15.jpg", "Best of Pau-11.jpg", "Best of Pau-9.jpg", "Best_of_Pau-1.jpg"
+            "Best of Pau-10.jpg",
+            "Best of Pau-11.jpg",
+            "Best of Pau-12.jpg",
+            "Best of Pau-13.jpg",
+            "Best of Pau-14.jpg",
+            "Best of Pau-15.jpg",
+            "Best of Pau-16.jpg",
+            "Best of Pau-17.jpg",
+            "Best of Pau-18.jpg",
+            "Best of Pau-19.jpg",
+            "Best of Pau-2.jpg",
+            "Best of Pau-3.jpg",
+            "Best of Pau-4.jpg",
+            "Best of Pau-5.jpg",
+            "Best of Pau-6.jpg",
+            "Best of Pau-7.jpg",
+            "Best of Pau-8.jpg",
+            "Best of Pau-9.jpg",
+            "Best_of_Pau-1.jpg"
           ]
         }
       }
     ]
   }
 ]
- 
