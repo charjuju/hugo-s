@@ -28,16 +28,6 @@
             "Best of Pau-12.jpg", "Best of Pau-14.jpg", "Best of Pau-16.jpg", "Best of Pau-2.jpg", "Best of Pau-8.jpg", "Best of Pau-17.jpg", "Best of Pau-4.jpg", "Best of Pau-5.jpg", "Best of Pau-13.jpg", "Best of Pau-18.jpg", "Best of Pau-6.jpg", "Best of Pau-3.jpg", "Best of Pau-10.jpg", "Best of Pau-7.jpg", "Best of Pau-19.jpg", "Best of Pau-15.jpg", "Best of Pau-11.jpg", "Best of Pau-9.jpg", "Best_of_Pau-1.jpg"
           ]
         }
-      },
-      {
-        "titre": "test 2",
-        "imageCover": "/exemple/moi/1.jpeg",
-        "chapter": {
-          "path": "/exemple/moi/",
-          "file": [
-            "1.jpeg"
-          ]
-        }
       }
     ]
   }
