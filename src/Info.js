@@ -18,7 +18,7 @@ function Info() {
       function CarrePhoto() {
         return (
           <div style={{ display: 'flex', flexWrap: 'wrap', width: '50%', minWidth: '250px', justifyContent: 'space-around', gap: '20px'}}>
-          <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1.jpeg" alt="about me" />
+          <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1700319823463.jpg" alt="about me" />
         </div>
         )
       }
