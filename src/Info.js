@@ -2,6 +2,7 @@ import React from "react";
 
 function Info() {
 
+  /*
   function diviserEnPhrases(chaine, delimiteur) {
     // Utiliser la méthode split pour diviser la chaîne en phrases
     const phrases = chaine.split(delimiteur);
@@ -11,14 +12,12 @@ function Info() {
 
     return phrasesPropres;
   }
-  /*
+  */
+  
     function AboutMe() {
       function CarrePhoto() {
         return (
           <div style={{ display: 'flex', flexWrap: 'wrap', width: '50%', minWidth: '250px', justifyContent: 'space-around', gap: '20px'}}>
-          <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1.jpeg" alt="about me" />
-          <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1.jpeg" alt="about me" />
-          <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1.jpeg" alt="about me" />
           <img style={{ width: '48%', minWidth: '250px' }} src="/aboutMe/1.jpeg" alt="about me" />
         </div>
         )
@@ -32,11 +31,12 @@ function Info() {
               <p>Contact:   +33 7 77 76 15 94  –  hugosegato@gmail.com</p>
             </div>
             <CarrePhoto />
+            <p>Contact:   +33 7 77 76 15 94  –  hugosegato@gmail.com</p>
           </div>
       )
     }
-    */
-
+    
+    /*
   function AboutMe() {
 
     function Lasagne1({ titre, description, imgsrc }) {
@@ -74,7 +74,7 @@ function Info() {
       </div>
     )
   }
-
+*/
   function Publication() {
     return (
       <div></div>
