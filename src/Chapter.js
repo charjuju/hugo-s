@@ -21,7 +21,7 @@ function Chapter() {
   }
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
-      <div style={{ width: '80%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden'}}>
         <GalerieImage />
       </div>
     </div>
