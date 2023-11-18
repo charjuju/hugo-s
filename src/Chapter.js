@@ -13,7 +13,7 @@ function Chapter() {
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center' }}>
         {ChapterInfo.file.map((data, index) => (
          <div key={index}>
-           <img style={{maxWidth: '100vw', margin: '5px'}} alt={`${ChapterInfo.path}${data}`} src={`${ChapterInfo.path}${data}`}/>
+           <img style={{maxWidth: '100vw', maxHeight: '90vh', margin: '5px'}} alt={`${ChapterInfo.path}${data}`} src={`${ChapterInfo.path}${data}`}/>
          </div>
         ))}
       </div>
