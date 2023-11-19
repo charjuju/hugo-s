@@ -12,6 +12,7 @@ function Galleries() {
           localStorage.setItem('Book', 0)
           navigate("/Book/")
         }} style={{
+          backgroundColor: '#7db6dd',
           display: 'flex', backgroundImage: `url("${jsonData[0].imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
           maxWidth: '520px', width: '100%', height: '500px', margin: '10px', cursor: 'pointer', overflow: 'hidden'
         }}>
@@ -23,6 +24,7 @@ function Galleries() {
               localStorage.setItem('Book', index)
               navigate("/Book/")
             }} key={index} style={{
+              backgroundColor: "#ff6923",
               display: 'flex', backgroundImage: `url("${data.imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
               width: '250px', height: '500px', margin: '10px', overflow: 'hidden', cursor: 'pointer'
             }}>
@@ -46,6 +48,7 @@ function Galleries() {
           localStorage.setItem('Book', 0)
           navigate("/Book/")
         }} style={{
+          backgroundColor: '#7db6dd',
           display: 'flex', backgroundImage: `url("${jsonData[0].imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
           width: '100%', height: '100vw', maxHeight: '50vh', margin: '10px', cursor: 'pointer'
         }}>
@@ -57,6 +60,7 @@ function Galleries() {
               localStorage.setItem('Book', index)
               navigate("/Book/")
             }} key={index} style={{
+              backgroundColor: "##ff6923",
               display: 'flex', backgroundImage: `url("${data.imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
               width: '100%', height: '100vw', maxHeight: '50vh', margin: '10px', overflow: 'hidden', cursor: 'pointer'
             }}>

@@ -41,13 +41,12 @@ function Chapter() {
   const ChapterPick = localStorage.getItem('Chapter') ? localStorage.getItem('Chapter') : '0'
   const ChapterInfo = jsonData[bookPick].book[ChapterPick].chapter
 
-  console.log(ChapterInfo)
   function GalerieImage() {
     return (
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center' }}>
         {ChapterInfo.file.map((data, index) => (
           <div key={index}>
-            <img onClick={() => setImagePick(index)} style={{ maxWidth: '100vw', maxHeight: '90vh', margin: '5px' }} alt={`${ChapterInfo.path}${data}`} src={`${ChapterInfo.path}${data}`} />
+            <img onClick={() => setImagePick(index)} style={{ maxWidth: '100vw', maxHeight: '90vh', margin: '5px', backgroundColor: '#7db6dd'}} alt={`${ChapterInfo.path}${data}`} src={`${ChapterInfo.path}${data}`} />
           </div>
         ))}
       </div>

@@ -41,8 +41,8 @@ function NavBar() {
   function ButtonNavigation() {
     return (
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <p onClick={() => navigate('/Info')}>Info</p>
-        <p style={{ marginLeft: '20px' }} onClick={() => navigate('/Galleries')}>Galleries</p>
+        <p style={{cursor: 'pointer'}} onClick={() => navigate('/Info')}>Info</p>
+        <p style={{cursor: 'pointer', marginLeft: '20px' }} onClick={() => navigate('/Galleries')}>Galleries</p>
       </div>
     );
   }

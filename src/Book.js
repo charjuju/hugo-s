@@ -18,6 +18,7 @@ function Book() {
             navigate('/Chapter')
           }} key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}>
             <div style={{
+              backgroundColor: '#7db6dd',
               display: 'flex', backgroundImage: `url("${data.imageCover}")`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center',
               width: '400px', height: '250px', margin: '10px', overflow: 'hidden'
             }}>
