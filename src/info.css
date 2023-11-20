@@ -1,0 +1,59 @@
+/*
+  #ff6923
+  #7db6dd
+*/
+.shadow-pop-br {
+    animation: shadow-unpop-br 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.shadow-pop-br:hover {
+    animation: shadow-pop-br 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+
+@keyframes shadow-pop-br {
+    0% {
+        -webkit-box-shadow: 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923;
+        box-shadow: 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923, 0 0 #ff6923;
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0);
+    }
+
+    100% {
+        -webkit-box-shadow: 1px 1px #ff6923, 2px 2px #ff6923, 3px 3px #ff6923, 4px 4px #ff6923, 5px 5px #ff6923, 6px 6px #ff6923, 7px 7px #ff6923, 8px 8px #ff6923;
+        box-shadow: 1px 1px #ff6923, 2px 2px #ff6923, 3px 3px #ff6923, 4px 4px #ff6923, 5px 5px #ff6923, 6px 6px #ff6923, 7px 7px #ff6923, 8px 8px #ff6923;
+        -webkit-transform: translateX(-8px) translateY(-8px);
+        transform: translateX(-8px) translateY(-8px);
+    }
+}
+
+@keyframes shadow-unpop-br {
+    100% {
+        -webkit-box-shadow: 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd;
+        box-shadow: 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd, 0 0 #7db6dd;
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0);
+    }
+
+    0% {
+        -webkit-box-shadow: 1px 1px #7db6dd, 2px 2px #7db6dd, 3px 3px #7db6dd, 4px 4px #7db6dd, 5px 5px #7db6dd, 6px 6px #7db6dd, 7px 7px #7db6dd, 8px 8px #7db6dd;
+        box-shadow: 1px 1px #7db6dd, 2px 2px #7db6dd, 3px 3px #7db6dd, 4px 4px #7db6dd, 5px 5px #7db6dd, 6px 6px #7db6dd, 7px 7px #7db6dd, 8px 8px #7db6dd;
+        -webkit-transform: translateX(-8px) translateY(-8px);
+        transform: translateX(-8px) translateY(-8px);
+    }
+}
+
+
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 5px); }
+    100%   { transform: translate(0, -0px); }    
+}
